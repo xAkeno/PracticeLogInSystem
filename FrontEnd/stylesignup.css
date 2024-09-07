@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60rem;
+    background-color: rgb(250, 149, 250);
+}
+.box-box{
+    width: 60rem;
+    height: 30rem;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 20px rgb(39, 39, 39);
+}
+.line{
+    display: flex;   
+}
+.left{
+    width: 35%;
+    height: 30rem;
+    background-color: rgb(92, 247, 195);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 28rem;
+}
+.info >h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.info >p{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.signin{
+    height: 2.5rem;
+    width: 12rem;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size: 15px;
+}
+.signin:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+}
+.signin:active{
+    background-color: rgb(74, 182, 146);
+}
+.right{
+    width: 65%;
+    height: 30rem;
+    background-color: whitesmoke;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 28rem;
+}
+.input >input{
+    margin-bottom: 20px;
+    height: 2.5rem;
+    width: 24.5rem;
+    border-radius: 15px;
+    border-style: none;
+    padding-left: 10px;
+}
+.input >h1{
+    font-size: 35px;
+}
+.signup{
+    height: 2.5rem;
+    width: 12rem;
+    border-style: none;
+    background-color: rgb(92, 247, 195);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.signup:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+}
+.signup:active{
+    background-color: rgb(74, 182, 146);
+}

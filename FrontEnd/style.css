@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+}
+.container{
+    display: flex;
+    height: 100vb;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(250, 149, 250)
+}
+
+.box-log{
+    background-color:aliceblue;   
+    width: 100vb;
+    height: 50vb;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(39, 39, 39);
+}
+.separator{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    background-color: rgb(231, 230, 230);
+    height: 50vb;
+    width: 65vb;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+
+.right{
+    background-image: linear-gradient(to left, rgb(92, 247, 195) , rgb(92, 247, 195));
+    height: 50vb;
+    width: 35vb;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.inputgroup{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;        
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.user{
+    height: 4vb;
+    width: 40vb;
+    border-style: none;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+.pass{
+    height: 4vb;
+    width: 40vb;
+    border-style: none;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+.button{
+    width:20vb;
+    height: 4vb;
+    border-style: none;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background-color: rgb(92, 247, 195);
+    transition: ease;
+}
+.button:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+}
+.button:active{
+    background-color: rgb(74, 182, 146);
+}
+.top-inside{
+    width: 100%;
+    height: 25vb;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    
+}
+.logo >div{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border-radius: 50%;
+}
+.or{
+    display: flex;
+    margin-top: 2px;
+}
+.or >hr{
+    width: 40%;
+}
+.middle{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.welcome{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.small-log{
+    font-size: 18px;
+    font-weight: 100;
+    color: gray;
+    
+}
+.inside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vb;
+    text-align: center;
+    flex-direction: column;
+}
+.signup{
+    height: 4vb;
+    width: 20vb;
+    border-style: none;
+    border-radius: 15px;
+    background-color: rgb(246, 248, 247);
+}
+.signup:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(50, 97, 74);
+}
+.signup:active{
+    background-color: rgb(74, 182, 146);
+}
+.inside >h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: px;
+}
+.inside >p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+}
